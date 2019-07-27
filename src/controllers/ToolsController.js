@@ -39,11 +39,3 @@ exports.remove = async (req, res) => {
     })
 
 }
-
-exports.getToolWithTag = async (req, res) => {
-    const { tag } = req.query
-
-    const tool = await Tools.find({ tags: tag })
-
-    return res.status(200).json(tool)
-}
