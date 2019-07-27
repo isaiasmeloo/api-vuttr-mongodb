@@ -28,6 +28,7 @@ $ npm start
 * Mongoose
 * Cors
 * Nodemon
+* Nunjucks
 
 > [API - HEROKU](https://api-vuttr-mongodb.herokuapp.com/)
 
